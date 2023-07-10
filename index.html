@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vote for your favorite Poké Ball!</title>
+    <!--Choice of website: poll/voting site-->
+
+    <!--styling-->
+    <link rel="stylesheet" href="mainstyling.css">
+
+    <!--Javascript-->
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="topContainer">
+        <div id="allContent">
+            <div id="pokeballContainer">
+                <!--Pokeball image goes here-->
+            </div>
+
+            <div id="questionContainer">
+                
+                <form>
+                    <h1>
+                        <p id="pokeballQuestion">Which Pokéball is YOUR favorite?</p>
+                    </h1>
+                    <div id="answerButtons">
+                        <input type="radio" id="pokeball" name="favoritePokeball" value="pokeball">
+                        <label for="pokeball">Pokéball</label><br>
+
+                        <input type="radio" id="greatball" name="favoritePokeball" value="greatball">
+                        <label for="greatball">Great Ball</label><br>
+
+                        <input type="radio" id="ultraball" name="favoritePokeball" value="ultraball">
+                        <label for="ultraball">Ultra Ball</label><br>
+
+                        <input type="radio" id="masterball" name="favoritePokeball" value="masterball">
+                        <label for="masterball">Master Ball</label><br>
+                    </div>
+            
+                </form>
+                
+            </div>
+
+            <div id="emptySpace">
+
+            </div>
+
+            <div id="submitContainer">
+                <div id="reasoningContainer">
+                    <form>
+                        <p><label for="reasoning"><h1 id="reasoningQuestion">What is your reasoning?</h1></label></p>
+                        <textarea id="reasoning" name="reasoning" rows="6" cols="60"></textarea><br>
+                    </form>
+
+                    <input type="submit" value="Submit" id="answerSubmit">
+                </div>
+                
+            </div>
+
+
+        </div>
+
+        <div id="ballDescriptions">
+            <div id="pokeballContent">
+                <div id="pokeballImage">
+                    <img src="pokeballs/pokeball.png" alt="pokeballs/unown.png" width="200px" height="200px">
+                </div>
+
+                <div id="pokeballDescription"> 
+                    <h1>It has a simple red and white design, and it's the most known kind of Poké Ball</h1>
+                </div>
+
+                <div id="greatballImage">
+                    <img src="pokeballs/greatball.png" alt="pokeballs/unown.png" width="200px" height="200px">
+                </div>
+
+                <div id="greatballDescription"> 
+                    <h1>It is slightly better than the regular Poké Ball.</h1>
+                </div>
+
+                <div id="ultraball">
+                    <img src="pokeballs/ultraball.png" alt="pokeballs/unown.png" width="200px" height="200px">
+                </div>
+
+                <div id="ultraballDescription"> 
+                    <h1>It is twice as good as a regular Poké Ball.</h1>
+                </div>
+
+                <div id="masterball">
+                    <img src="pokeballs/masterball.png" alt="pokeballs/unown.png" width="200px" height="200px">
+                </div>
+
+                <div id="masterballDescription"> 
+                    <h1>A very rare Poké Ball that never fails in an attempt to catch a Pokémon.</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

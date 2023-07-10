@@ -1,0 +1,87 @@
+body{
+    background-image: url('background/background.jpg');
+}
+
+#topContainer {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    column-gap: 500px;
+}
+
+#ballDescriptions {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+
+    -webkit-text-stroke: 2px black;
+
+}
+
+#pokeballContent {
+    display: inline-grid;
+    column-gap: 50px;
+    row-gap: 70px;
+    grid-template-columns: 200px 400px;
+}
+
+#allContent {
+    display: inline-grid;
+    grid-template-columns: 500px 500px;
+    /* grid-template-rows: 500px 400px 00px; */
+    
+    column-gap: 0px;
+
+    row-gap: 20px;
+
+    padding: 20px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+
+    
+    
+}
+
+#pokeballContainer{
+    width: 450px;
+    height: 450px;
+    /* border: 3px solid red; */
+}
+
+#questionContainer {
+    /* border: 3px solid green; */
+}
+
+#pokeballQuestion {
+    -webkit-text-stroke: 2px black;
+    
+}
+
+#answerButtons {
+    font-size: 40px;
+    font-weight: bold;
+    -webkit-text-stroke: 2px black;
+}
+
+input[type="radio"]{
+    margin: 50px 0px 0px 0px;
+  }
+
+#submitContainer {
+    padding-top: 0px;
+
+    /* border: 3px solid orange; */
+}
+
+#answerSubmit{
+    position: relative;
+    top: 10px;
+    left: 405px;
+}
+
+#reasoningQuestion {
+    -webkit-text-stroke: 2px black;
+}
+
+#emptySpace {
+    /* border: 3px solid gray; */
+}
